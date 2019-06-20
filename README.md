@@ -30,9 +30,9 @@ The API endpoints for the above features are-
 
 5.list- http://localhost:8000/api/dashboard/list_files/
 
-6.update- http://localhost:8000/api/dashboard/update_files/<filename>/
+6.update- http://localhost:8000/api/dashboard/update_files/'filename'/
   
-7.delete- http://localhost:8000/api/dashboard/delete_files/<filename>/
+7.delete- http://localhost:8000/api/dashboard/delete_files/'filename'/
   
   
 The API uses a Token based Authentiaction Scheme.So on logging in the user will be provided a token which should be used while accessing API endpoints for list,upload,delete,update and logout features.
