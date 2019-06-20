@@ -1,0 +1,11 @@
+{% extends 'Dashboard/base.html' %}
+
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+  </form>
+
+  <p><a href='http://localhost:8000/dashboard/'>Return to Dashboard</a></p>
+{% endblock %}

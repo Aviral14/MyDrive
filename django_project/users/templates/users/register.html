@@ -1,0 +1,22 @@
+
+{% extends "users/base.html" %}
+{% block content %}
+<form action='.' method='POST'>
+{% csrf_token %}
+<fieldset>
+<legend>Join Now!</legend><br>
+<br>
+{{form}}
+<br>
+<br>
+<button type='submit'>Sign Up!</button>
+<br>
+<br>
+</fieldset>
+</form>
+<h3>Already an User?</h3> <a href="{% url 'user-login'%}">Click Here To Log In!</a>
+{% endblock %}
+
+
+
+

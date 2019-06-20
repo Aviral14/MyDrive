@@ -1,0 +1,18 @@
+{% extends 'Dashboard/base.html' %}
+{% block content %}
+</body>
+<head>
+<title>Dashboard</title>
+</head>
+<body>
+<h1 style="text-align:center;">Dashboard</h1>
+<br>
+<h2 style="text-align:left;">Welcome {{user.username}}</h2>
+<br>
+<h3>
+<a href='http://localhost:8000/dashboard/view_files/'>Click Here To View All Your Uploaded Files</a>
+<br><br>
+<a href='http://localhost:8000/dashboard/upload_files/'>Click Here To Upload a New File</a>
+<br><br>
+</body>
+{% endblock %}

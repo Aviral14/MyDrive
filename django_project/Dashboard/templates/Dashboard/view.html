@@ -1,0 +1,20 @@
+{% extends 'Dashboard/base.html' %}
+{% block content %}
+<head>
+<title>File Display</title>
+</head>
+<body>
+{% if datalist %}
+{% for data in datalist %}
+<a href={{data.userfile.url}}>{{data.filename}}</a>
+<a href='http://localhost:8000/Dashboard/delete_file/'>Delete File</a>
+<br>
+<br>
+{% endfor %}
+{% else %}
+<h1>No File To Display</h1>
+<a href='http://localhost:8000/dashboard/upload_files/'>Click Here to Upload a File now!!</a>
+{% endif %}
+</body>
+{% endblock %}
+
