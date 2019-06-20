@@ -1,6 +1,7 @@
 # MyDrive
 An API built using Django Rest Framework to upload and access files stored on Firebase Cloud Storage
 
+
 The API has functionality to-
 
 1.register a user
@@ -18,6 +19,7 @@ The API has functionality to-
 7.delete a file of a logged in user
 
 
+
 The API endpoints for the above features are-
 
 1.register- http://localhost:8000/api/users/register/
@@ -33,6 +35,7 @@ The API endpoints for the above features are-
 6.update- http://localhost:8000/api/dashboard/update_files/'filename'/
   
 7.delete- http://localhost:8000/api/dashboard/delete_files/'filename'/
+
   
   
 The API uses a Token based Authentiaction Scheme.So on logging in the user will be provided a token which should be used while accessing API endpoints for list,upload,delete,update and logout features.
