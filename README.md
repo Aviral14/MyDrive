@@ -38,7 +38,7 @@ The API endpoints for the above features are-
 
   
   
-The API uses a Token based Authentiaction Scheme.So on logging in the user will be provided a token which should be used while accessing API endpoints for list,upload,delete,update and logout features.
+The API uses a Token based Authentication Scheme.So on logging in the user will be provided a token which should be used while accessing API endpoints for list,upload,delete,update and logout features.
 
 
 This Project has helper functions for firebase in the firebase_utilities folder which can even be used independently.
