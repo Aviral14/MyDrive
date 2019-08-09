@@ -1,6 +1,8 @@
 # MyDrive
 An API built using Django Rest Framework to upload and access files stored on Firebase Cloud Storage
 
+This Project also includes a html based frontend dahsboard which can be accessed via http://localhost:8000
+
 
 The API has functionality to-
 
